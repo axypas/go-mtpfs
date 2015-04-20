@@ -32,6 +32,10 @@ go get github.com/hanwen/go-mtpfs
 ```
   /tmp/go/bin/go-mtpfs will then contain the program binary.
 
+```
+  sudo mv /tmp/go/bin/go-mtpfs /user/bin
+```  
+
 * You may need some tweaking to get libusb to compile.  See the
   comment near the top of usb/usb.go, ie.
 ```
